@@ -1,1 +1,1 @@
-include "$HOME/.gtkrc-2.0.mine"
+include "/etc/skel/.gtkrc-2.0.mine"
