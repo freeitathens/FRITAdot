@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Icon=system-file-manager
+Name=Home Folder
+GenericName=Home Folder
+Comment=open home folder in PCManFM
+Categories=FileManager;Utility;Core;GTK;
+Exec=pcmanfm
+StartupNotify=true
+Terminal=false
+MimeType=x-directory/normal;inode/directory;
