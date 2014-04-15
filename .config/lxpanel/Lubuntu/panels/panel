@@ -54,6 +54,10 @@ Plugin {
         Button {
             id=lubuntu-browser.desktop
         }
+        Button {
+            id=libreoffice-startcenter.desktop
+        }
+
     }
 }
 
