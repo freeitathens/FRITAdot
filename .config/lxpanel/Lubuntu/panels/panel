@@ -49,10 +49,10 @@ Plugin {
     type = launchbar
     Config {
         Button {
-            id=pcmanfm.desktop
+            id=lubuntu-browser.desktop
         }
         Button {
-            id=lubuntu-browser.desktop
+            id=pcmanfm.desktop
         }
         Button {
             id=libreoffice-startcenter.desktop
