@@ -29,12 +29,19 @@ Plugin {
     type = menu
     Config {
         image=/usr/share/lubuntu/images/lubuntu-logo.png
-        system {
+        item {
+        image=/usr/share/icons/Humanity/apps/24/web-browser.svg
+        name=Internet
+        action=/usr/bin/x-www-browser %u
+        }
+        item {
+        image=/usr/share/icons/Humanity/apps/24/system-file-manager.svg
+        name=Home Folder
+        action=pcmanfm                  
         }
         separator {
         }
-        item {
-            command=run
+	    system {
         }
         separator {
         }
@@ -49,15 +56,11 @@ Plugin {
     type = launchbar
     Config {
         Button {
-            id=lubuntu-browser.desktop
-        }
-        Button {
             id=pcmanfm.desktop
         }
         Button {
-            id=libreoffice-startcenter.desktop
+            id=lubuntu-browser.desktop
         }
-
     }
 }
 
