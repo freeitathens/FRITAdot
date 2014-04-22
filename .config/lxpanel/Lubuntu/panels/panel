@@ -30,18 +30,18 @@ Plugin {
     Config {
         image=/usr/share/lubuntu/images/lubuntu-logo.png
         item {
-        image=/usr/share/icons/Humanity/apps/24/web-browser.svg
-        name=Internet
-        action=/usr/bin/x-www-browser %u
+            image=/usr/share/icons/Humanity/apps/24/web-browser.svg
+            name=Internet
+            action=/usr/bin/x-www-browser 0
         }
         item {
-        image=/usr/share/icons/Humanity/apps/24/system-file-manager.svg
-        name=Home Folder
-        action=pcmanfm                  
+            image=/usr/share/icons/Humanity/apps/24/system-file-manager.svg
+            name=Home Folder
+            action=pcmanfm
         }
         separator {
         }
-	    system {
+        system {
         }
         separator {
         }
@@ -59,7 +59,7 @@ Plugin {
             id=pcmanfm.desktop
         }
         Button {
-            id=lubuntu-browser.desktop
+            id=lxde-x-www-browser.desktop
         }
     }
 }
