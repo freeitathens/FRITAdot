@@ -46,8 +46,9 @@ Plugin {
         separator {
         }
         item {
-            image=gnome-logout
-            command=logout
+            image=/usr/share/icons/lubuntu/panel/22/system-shutdown-panel.svg
+            name=Shut Down
+            action=lxsession-logout
         }
     }
 }
@@ -120,13 +121,3 @@ Plugin {
         CenterText=0
     }
 }
-
-Plugin {
-    type = launchbar
-    Config {
-        Button {
-            id=lubuntu-logout.desktop
-        }
-    }
-}
-
