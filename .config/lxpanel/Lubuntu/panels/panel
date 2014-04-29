@@ -46,9 +46,9 @@ Plugin {
         separator {
         }
         item {
-            image=/usr/share/icons/lubuntu/panel/22/system-shutdown-panel.svg
+            image=/usr/share/icons/lubuntu/panel/24/system-shutdown-panel.svg
             name=Shut Down
-            action=lxsession-logout
+            action=lubuntu-logout
         }
     }
 }
