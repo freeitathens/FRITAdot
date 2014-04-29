@@ -59,6 +59,9 @@ Plugin {
             id=pcmanfm.desktop
         }
         Button {
+            id=libreoffice-startcenter.desktop
+        }
+        Button {
             id=lxde-x-www-browser.desktop
         }
     }
