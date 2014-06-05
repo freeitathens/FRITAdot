@@ -29,7 +29,7 @@ Plugin {
         item {
             image=/usr/share/icons/Humanity/apps/24/web-browser.svg
             name=Internet
-            action=/usr/bin/x-www-browser %u
+            action=/usr/bin/x-www-browser
         }
         item {
             image=/usr/share/icons/Humanity/apps/24/system-file-manager.svg
